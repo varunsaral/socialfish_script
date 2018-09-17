@@ -19,6 +19,18 @@ apt install git python python3 php -y
 	echo -e "$green installing social fish"
 git clone https://github.com/UndeadSec/SocialFish ./$home
 echo -e "$yellow cloned successfully "
+
+echo -e "$yellow installing dependencies"
+setuptools == 40.0.0
+requests
+
+# core/email.py: 1
+# core/phishingRunner.py: 15
+# core/view.py: 14
+huepy == 0.9.8.1
+
+# core/pre.py: 13
+wget == 3.2
 echo
 echo -e "$green Thanks guys"
 
