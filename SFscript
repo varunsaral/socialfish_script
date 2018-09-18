@@ -14,7 +14,7 @@ echo -e "$yellow Dependencies Installing ..."
 echo
 echo -e "$red installing tools"
 apt update -y && apt upgrade -y
-apt install git python python3 php -y
+pkg install git python python3 php -y
 
 	echo -e "$green installing social fish"
 git clone https://github.com/UndeadSec/SocialFish  /data/data/com.termux/files/home/SocialFish
