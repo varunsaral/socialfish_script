@@ -17,8 +17,8 @@ apt update -y && apt upgrade -y
 apt install git python python3 php -y
 
 	echo -e "$green installing social fish"
-git clone https://github.com/UndeadSec/SocialFish ./$home
-echo -e "$yellow cloned successfully "
+git clone https://github.com/UndeadSec/SocialFish  /data/data/com.termux/files/home/SocialFish
+echo -e "$yellow cloned successfully " 
 
 echo -e "$yellow installing dependencies"
 pip install -r requirements.txt
